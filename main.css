@@ -1,0 +1,122 @@
+*{
+	font-family:Georgia, "Times New Roman", Times, serif;
+	margin:0;
+}
+/*body{
+	margin:0;
+}*/
+.content{
+	padding: 0 20%;
+}
+.right{
+	display:inline-block;
+	float:right;
+}
+.left{
+	display:inline-block;
+}
+#info{
+	background-color: #F2F1EE;
+	color: #4A4A4A;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+#search{
+	background-color: #3C4348;
+	color: white;
+	padding-top: 35px;
+	padding-bottom: 35px;
+}
+#search .right{
+	background-color: #212427;
+}
+#search .left{
+	font-size:25px;
+}
+#menu {
+	background-color: #212427;
+	color: white;
+}
+#menu ul{
+	list-style: none;
+	margin: 0;
+	padding:0;
+}
+#menu ul li{
+	display:inline-block;
+	padding:20px 20px 20px 0px;
+}
+#slide{
+	background-image: url('https://placeimg.com/2000/800');
+	height:800px;
+	color:white;
+	position: relative;
+}
+#black-block{
+	width: 450px;
+	height: 350px;
+	padding: 30px;
+	background-color: rgb(0,0,0, 0.8);
+	position: absolute;
+	top: 25%;
+	right: 20%;
+}
+#actions .first{
+	width: 100px;
+	height: 40px;
+	position:absolute;
+	color: #FFFFFF;
+        background-color: #00BCDF;
+	top:80%;
+	right:33%;
+	border:0;
+}
+#actions .second{
+	width: 150px;
+	height: 40px;
+	position:absolute;
+	background-color: #FFFFFF;
+        color: #00BCDF;
+	top:80%;
+	right:20%;
+	border:0;
+}
+#news{
+	background-color: #F2F1EE;
+}
+#desc{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	text-align: center;
+}
+#desc h3{
+	padding-bottom: 50px;
+}
+.post{
+	background-color:white;
+	padding:20px;
+	margin-right:50px;
+	margin-bottom:20px;
+	display:inline-block;
+	width:280px;
+}
+.post h5{
+	font-size:20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+footer{
+	color: #EAEAEA;
+        background-color: #3C4348;
+}
+footer .left{
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+footer .right{
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+
+
